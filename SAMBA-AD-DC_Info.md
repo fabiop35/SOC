@@ -20,10 +20,10 @@
 | **Sistema operativo** | Ubuntu 26.04.1 LTS (Resolute Raccoon), núcleo 7.0.0-38-generic |
 | **Rol** | Controlador de dominio de Active Directory (nivel funcional del bosque/dominio 2008 R2) |
 
-### 1.1 Zona horaria
-```bash
-timedatectl set-timezone America/Bogota
-```
+### 1.1 Iniciar el Servicio (`Maquina Virtual Linux`)
+
+![Iniciar Servicio](./images/servicio.jpg)
+
 ### 1.2 Puertos
 DNS `53`, Kerberos `88`, RPC `135`, NetBIOS `139`, LDAP `389`, SMB `445`, kpasswd `464`, LDAPS `636`, GC `3268`/`3269`.
 
@@ -53,12 +53,12 @@ DNS `53`, Kerberos `88`, RPC `135`, NetBIOS `139`, LDAP `389`, SMB `445`, kpassw
                                 |  TCP 445 (SMB), 53 (DNS), 88 (Kerberos),
                                 |  389 (LDAP), 137/138/139, 464, 636, 3268, 3269
                                 v
-                     +------------------------------+
-                     |  samba-dc1 (192.168.0.121/24)|
-                     |  samba-ad-dc.service         |
-                     |  /usr/sbin/samba daemon      |
-                     |  (smbd/nmbd/winbind masked)  |
-                     +------------------------------+
+                     +------------------------------------------------------+
+                     |  samba-dc1 (192.168.0.121/24) #Maquina Virtual Linux |
+                     |  samba-ad-dc.service                                 |
+                     |  /usr/sbin/samba daemon                              |
+                     |  (smbd/nmbd/winbind masked)                          |
+                     +-------------------------------------------------------+
                                 |          |
                   posee 127.0.0.1:53       | reenvía consultas ajenas al dominio
                   (DNS interno) |          v
@@ -71,6 +71,9 @@ DNS `53`, Kerberos `88`, RPC `135`, NetBIOS `139`, LDAP `389`, SMB `445`, kpassw
                      | esquema, |
                      | zonas DNS|
                      +----------+
+
+![Arquitectura](./images/arquitectura.jpg)
+
 
 ## 3. ADMINISTRACIÓN
 
