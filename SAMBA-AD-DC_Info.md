@@ -42,7 +42,7 @@ DNS `53`, Kerberos `88`, RPC `135`, NetBIOS `139`, LDAP `389`, SMB `445`, kpassw
 | TCP | 389 | LDAP |
 | UDP | 389 | LDAP (CLDAP) |
 | TCP | 445 | SMB/CIFS |
-| TCP+UDP | 464 | Cambio de password de Kerberos |
+| TCP+UDP | 464 | Cambio de contraseña de Kerberos |
 | TCP | 636 | LDAPS |
 | TCP | 3268, 3269 | Catálogo global (GC / GC-SSL) |	
 
@@ -230,6 +230,24 @@ se creó GPO: Default Domain Policy {31B2F340-016D-11D2-945F-00C04FB984F9} (vinc
 
 Archivo `/var/lib/samba/sysvol/soc.smb.local/Policies/{31B2F340-016D-11D2-945F-00C04FB984F9}/MACHINE/microsoft/windows nt/SecEdit/GptTmpl.inf`
          `/var/lib/samba/sysvol/soc.smb.local/Policies/\{31B2F340-016D-11D2-945F-00C04FB984F9\}/MACHINE/microsoft/windows\ nt/SecEdit/GptTmpl.inf`
+```bash		 
+echo 'sysadmin**' | sudo -S ufw allow 49152:65535/tcp
+echo 'sysadmin**' | sudo -S ufw reload
+echo 'sysadmin**' | sudo -S ufw status numbered
+
+ipconfig /flushdns  
+nltest /sc_query:SOC
+gpupdate /force
+nltest /sc_reset:SOC
+gpupdate /force
+                                                                                                   
+#Then reboot and verify:
+                                                                                                   
+reg query "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v InactivityTimeoutSecs
+reg query "HKCU\Software\Policies\Microsoft\Windows\Control Panel\Desktop" /v ScreenSaveTimeOut
+gpresult /r
+```
+
 
 ### 7. Servicios
 * **LDAP (Lightweight Directory Access Protocol) & LDAPS:**  Base de datos central de Active Directory
