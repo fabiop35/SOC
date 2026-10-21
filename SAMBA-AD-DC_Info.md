@@ -27,6 +27,26 @@ timedatectl set-timezone America/Bogota
 ### 1.2 Puertos
 DNS `53`, Kerberos `88`, RPC `135`, NetBIOS `139`, LDAP `389`, SMB `445`, kpasswd `464`, LDAPS `636`, GC `3268`/`3269`.
 
+### 1.3 Firewall
+
+| Protocolo | Puertos | Propósito |
+| :--- | :--- | :--- |
+| TCP | 22 | SSH |
+| TCP | 53 | DNS |
+| UDP | 53 | DNS |
+| TCP | 88 | Kerberos |
+| UDP | 88 | Kerberos |
+| TCP+UDP | 135 | Mapeador de endpoints RPC |
+| TCP+UDP | 137, 138 | Servicio de nombres NetBIOS / datagramas |
+| TCP | 139 | Sesión NetBIOS |
+| TCP | 389 | LDAP |
+| UDP | 389 | LDAP (CLDAP) |
+| TCP | 445 | SMB/CIFS |
+| TCP+UDP | 464 | Cambio de password de Kerberos |
+| TCP | 636 | LDAPS |
+| TCP | 3268, 3269 | Catálogo global (GC / GC-SSL) |	
+
+
 ## 2. Arquitectura / Flujo de solicitudes
 					Clientes Windows / Linux
                                 |
