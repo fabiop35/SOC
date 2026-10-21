@@ -28,6 +28,7 @@ timedatectl set-timezone America/Bogota
 DNS `53`, Kerberos `88`, RPC `135`, NetBIOS `139`, LDAP `389`, SMB `445`, kpasswd `464`, LDAPS `636`, GC `3268`/`3269`.
 
 ### 1.3 Firewall
+
 | Protocolo | Puertos | Propósito |
 | :--- | :--- | :--- |
 | TCP | 22 | SSH |
