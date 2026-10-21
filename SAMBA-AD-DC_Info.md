@@ -208,6 +208,7 @@ sudo realm list                     # muestra el estado de unión
 ```
 
 ### 4. Rutas útiles
+
 | Ruta | Propósito |
 | :--- | :--- |
 | `/etc/samba/smb.conf` | Configuración global del DC y recursos compartidos (sysvol, netlogon, public, home) |
