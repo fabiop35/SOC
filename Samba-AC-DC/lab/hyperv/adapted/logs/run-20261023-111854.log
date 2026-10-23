@@ -1,0 +1,238 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261023111854
+Nombre de usuario: DESKTOP-OIAJKVE\usuario
+Usuario RunAs: DESKTOP-OIAJKVE\usuario
+Nombre de la configuración: 
+Máquina: DESKTOP-OIAJKVE (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\tmp\lab\hyperv\adapted\ejecutar-todo.ps1 -LeaveRunning
+Id. de proceso: 8572
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[11:18:54] Log: D:\tmp\lab\hyperv\adapted\logs\run-20261023-111854.log
+[11:18:54] === 00-preparar-host.ps1 ===
+[11:18:54] Sesion elevada: True
+[11:18:54] Microsoft-Hyper-V-All ya esta Enabled.
+[11:18:54] DESKTOP-OIAJKVE\usuario ya pertenece a 'Administradores de Hyper-V'.
+[11:18:54] El VHD ya existe: D:\HyperV\samba-dc1.vhd (7 GB). No se vuelve a convertir.
+[11:18:54]
+[11:18:54] Siguiente paso: .\01-crear-vm-samba-dc1.ps1
+[11:18:54] === 01-crear-vm-samba-dc1.ps1 ===
+[11:18:55] El conmutador 'Lab-External' ya existe (tipo: External).
+
+Name           SwitchType NetAdapterInterfaceDescription          
+----           ---------- ------------------------------          
+Default Switch   Internal                                         
+Lab-External     External Intel(R) Ethernet Connection (7) I219-LM
+[11:18:55] La VM 'samba-dc1' ya existe (estado: Off); se reconfigura.
+[11:18:55] Disco ya adjuntado en IDE 0:0: D:\HyperV\samba-dc1.vhd
+[11:18:56] Adaptador Legacy (E1000) creado con MAC 08-00-27-7E-8D-F2 en 'Lab-External'.
+[11:18:56] Configurando arranque/parada automatica...
+[11:18:56] RAM estatica: 4096 MB.
+[11:18:56] Orden de arranque: IDE, CD, LegacyNetworkAdapter, Floppy
+[11:18:56] Integracion habilitada: Interfaz de servicio invitado
+
+
+
+Name                        : samba-dc1
+State                       : Off
+Generation                  : 1
+AutomaticStartAction        : Start
+AutomaticStopAction         : ShutDown
+AutomaticCheckpointsEnabled : False
+ProcessorCount              : 2
+
+
+Name       : Network Adapter
+SwitchName : Lab-External
+MacAddress : 0800277E8DF2
+IsLegacy   : True
+Connected  : True
+
+Name                             Enabled PrimaryStatusDescription
+----                             ------- ------------------------
+Interfaz de servicio invitado       True                         
+Latido                              True                         
+Intercambio de pares clave-valor    True                         
+Cierre                              True                         
+Sincronización de hora              True                         
+VSS                                 True
+[11:18:56] Siguiente paso: .\02-verificar-apagado-graceful.ps1 -LeaveRunning
+[11:18:56] === 02-verificar-apagado-graceful.ps1 ===
+[11:18:56] VM 'samba-dc1' | Estado: Off | AutomaticStopAction: ShutDown
+[11:18:56] Integracion Shutdown: Enabled= Estado=
+[11:18:56] Arrancando la VM...
+[11:19:04] Esperando guest... estado=Running, 5s
+[11:19:09] Esperando guest... estado=Running, 10s
+[11:19:15] Esperando guest... estado=Running, 16s
+[11:19:20] Esperando guest... estado=Running, 21s
+[11:19:25] Esperando guest... estado=Running, 26s
+[11:19:30] Esperando guest... estado=Running, 31s
+[11:19:36] Esperando guest... estado=Running, 37s
+[11:19:41] Esperando guest... estado=Running, 42s
+[11:19:46] Esperando guest... estado=Running, 47s
+[11:19:51] Esperando guest... estado=Running, 52s
+[11:19:57] Esperando guest... estado=Running, 58s
+[11:20:02] Esperando guest... estado=Running, 63s
+[11:20:07] Esperando guest... estado=Running, 68s
+[11:20:12] Esperando guest... estado=Running, 73s
+[11:20:18] Esperando guest... estado=Running, 79s
+[11:20:23] Esperando guest... estado=Running, 84s
+[11:20:28] Esperando guest... estado=Running, 89s
+[11:20:33] Esperando guest... estado=Running, 94s
+[11:20:39] Esperando guest... estado=Running, 100s
+[11:20:44] Esperando guest... estado=Running, 105s
+[11:20:49] Esperando guest... estado=Running, 110s
+[11:20:54] Esperando guest... estado=Running, 115s
+[11:20:59] Esperando guest... estado=Running, 120s
+[11:21:05] Esperando guest... estado=Running, 126s
+[11:21:10] Esperando guest... estado=Running, 131s
+[11:21:15] Esperando guest... estado=Running, 136s
+[11:21:20] Esperando guest... estado=Running, 141s
+[11:21:26] Esperando guest... estado=Running, 147s
+[11:21:31] Esperando guest... estado=Running, 152s
+[11:21:36] Esperando guest... estado=Running, 157s
+[11:21:41] Esperando guest... estado=Running, 162s
+[11:21:47] Esperando guest... estado=Running, 168s
+[11:21:52] Esperando guest... estado=Running, 173s
+[11:21:57] Esperando guest... estado=Running, 178s
+[11:22:02] Esperando guest... estado=Running, 183s
+[11:22:08] Esperando guest... estado=Running, 189s
+[11:22:13] Esperando guest... estado=Running, 194s
+[11:22:18] Esperando guest... estado=Running, 199s
+[11:22:23] Esperando guest... estado=Running, 204s
+[11:22:29] Esperando guest... estado=Running, 210s
+[11:22:34] Esperando guest... estado=Running, 215s
+[11:22:39] Esperando guest... estado=Running, 220s
+[11:22:44] Esperando guest... estado=Running, 225s
+[11:22:49] Esperando guest... estado=Running, 230s
+[11:22:55] Esperando guest... estado=Running, 236s
+[11:23:00] Esperando guest... estado=Running, 241s
+[11:23:05] Esperando guest... estado=Running, 246s
+[11:23:10] Esperando guest... estado=Running, 251s
+[11:23:16] Esperando guest... estado=Running, 257s
+[11:23:21] Esperando guest... estado=Running, 262s
+[11:23:26] Esperando guest... estado=Running, 267s
+[11:23:31] Esperando guest... estado=Running, 272s
+[11:23:37] Esperando guest... estado=Running, 278s
+[11:23:42] Esperando guest... estado=Running, 283s
+[11:23:47] Esperando guest... estado=Running, 288s
+[11:23:52] Esperando guest... estado=Running, 293s
+[11:23:58] Esperando guest... estado=Running, 299s
+[11:24:03] Esperando guest... estado=Running, 304s
+[11:24:08] Esperando guest... estado=Running, 309s
+[11:24:13] Esperando guest... estado=Running, 314s
+[11:24:18] Esperando guest... estado=Running, 319s
+[11:24:24] Esperando guest... estado=Running, 325s
+[11:24:29] Esperando guest... estado=Running, 330s
+[11:24:34] Esperando guest... estado=Running, 335s
+[11:24:39] Esperando guest... estado=Running, 340s
+[11:24:45] Esperando guest... estado=Running, 346s
+[11:24:50] Esperando guest... estado=Running, 351s
+[11:24:55] Esperando guest... estado=Running, 356s
+[11:25:00] Esperando guest... estado=Running, 361s
+[11:25:06] Esperando guest... estado=Running, 367s
+[11:25:11] Esperando guest... estado=Running, 372s
+[11:25:16] Esperando guest... estado=Running, 377s
+[11:25:21] Esperando guest... estado=Running, 382s
+[11:25:27] Esperando guest... estado=Running, 388s
+[11:25:32] Esperando guest... estado=Running, 393s
+[11:25:37] Esperando guest... estado=Running, 398s
+[11:25:42] Esperando guest... estado=Running, 403s
+[11:25:47] Esperando guest... estado=Running, 408s
+[11:25:53] Esperando guest... estado=Running, 414s
+[11:25:58] Esperando guest... estado=Running, 419s
+[11:26:03] Esperando guest... estado=Running, 424s
+[11:26:08] Esperando guest... estado=Running, 429s
+[11:26:14] Esperando guest... estado=Running, 435s
+[11:26:19] Esperando guest... estado=Running, 440s
+[11:26:24] Esperando guest... estado=Running, 445s
+[11:26:29] Esperando guest... estado=Running, 450s
+[11:26:35] Esperando guest... estado=Running, 456s
+[11:26:40] Esperando guest... estado=Running, 461s
+[11:26:45] Esperando guest... estado=Running, 466s
+[11:26:50] Esperando guest... estado=Running, 471s
+[11:26:55] Esperando guest... estado=Running, 477s
+[11:27:01] Esperando guest... estado=Running, 482s
+[11:27:06] Esperando guest... estado=Running, 487s
+[11:27:11] Esperando guest... estado=Running, 492s
+[11:27:16] Esperando guest... estado=Running, 497s
+[11:27:22] Esperando guest... estado=Running, 503s
+[11:27:27] Esperando guest... estado=Running, 508s
+[11:27:32] Esperando guest... estado=Running, 513s
+[11:27:37] Esperando guest... estado=Running, 518s
+[11:27:43] Esperando guest... estado=Running, 524s
+[11:27:48] Esperando guest... estado=Running, 529s
+[11:27:53] Esperando guest... estado=Running, 534s
+[11:27:58] Esperando guest... estado=Running, 539s
+[11:28:04] Esperando guest... estado=Running, 545s
+[11:28:09] Esperando guest... estado=Running, 550s
+[11:28:14] Esperando guest... estado=Running, 555s
+[11:28:19] Esperando guest... estado=Running, 560s
+[11:28:24] Esperando guest... estado=Running, 565s
+[11:28:30] Esperando guest... estado=Running, 571s
+[11:28:35] Esperando guest... estado=Running, 576s
+[11:28:40] Esperando guest... estado=Running, 581s
+[11:28:45] Esperando guest... estado=Running, 586s
+[11:28:51] Esperando guest... estado=Running, 592s
+[11:28:56] Esperando guest... estado=Running, 597s
+[11:29:01] Esperando guest... estado=Running, 602s
+ADVERTENCIA: El guest no reporto latido. Puede faltar la integracion Linux (hv_utils) o el arranque esta atascado (dracut).
+[11:29:04] Prueba SSH 192.168.0.121:22 = False
+[11:29:04] Ejecutando Stop-VM (parada GRACIOSA, sin -Force)...
+Confirmar
+Hyper-V no puede apagar la máquina virtual "samba-dc1" porque el Servicio de integración de cierre no está disponible. Puedes apagar la máquina virtual si seleccionas [S]í, pero esto es lo mismo que desenchufar la máquina física. Para evitar la posible pérdida de datos, selecciona [N]o y, después, pausa o guarda el estado de la máquina virtual. ¿Quieres apagar la máquina virtual?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+S
+[11:30:11] Estado final: Off (tardo 67 s)
+[11:30:11]
+[11:30:11] Eventos recientes de Hyper-V sobre esta VM:
+
+TimeCreated                  Id ProviderName                   Msg                                                                                                                                      
+-----------                  -- ------------                   ---                                                                                                                                      
+23/10/2026 11:18:24 a. m. 14260 Microsoft-Windows-Hyper-V-VMMS El usuario 'DESKTOP-OIAJKVE\usuario' no tiene el permiso necesario para realizar la operación en 'samba-dc1'. (Id. de máquina virtual    
+                                                               E07975D3-66E7-4615-8094-F1B5712AD092)                                                                                                    
+23/10/2026 11:18:12 a. m. 13002 Microsoft-Windows-Hyper-V-VMMS Se creó una nueva máquina virtual 'samba-dc1'. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)               
+23/10/2026 11:18:12 a. m. 36000 Microsoft-Windows-Hyper-V-VMMS 'samba-dc1' el repositorio de runtime ha registrado el Resumen de rendimiento (ID. de máquina virtual                                    
+                                                               {e07975d3-66e7-4615-8094-f1b5712ad092}) [Completed WmiMsvmVirtualSystemManagementService::DefineVirtualSystemInternal]:                  
+23/10/2026 11:18:12 a. m. 36000 Microsoft-Windows-Hyper-V-VMMS 'samba-dc1' el repositorio de configuration ha registrado el Resumen de rendimiento (ID. de máquina virtual                              
+                                                               {e07975d3-66e7-4615-8094-f1b5712ad092}) [Completed WmiMsvmVirtualSystemManagementService::DefineVirtualSystemInternal]:                  
+23/10/2026 11:18:12 a. m. 18304 Microsoft-Windows-Hyper-V-VMMS Se produjo la máquina virtual 'samba-dc1'. (VMID E07975D3-66E7-4615-8094-F1B5712AD092).
+
+TimeCreated                  Id ProviderName                        Msg                                                                                                                                 
+-----------                  -- ------------                        ---                                                                                                                                 
+23/10/2026 11:30:10 a. m. 18502 Microsoft-Windows-Hyper-V-Worker    'samba-dc1' se desactivó. (Id. de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092)                                             
+23/10/2026 11:18:59 a. m. 18606 Microsoft-Windows-Hyper-V-Chipset   'samba-dc1' está intentando arrancar un sistema operativo. (Id. de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092)            
+23/10/2026 11:18:59 a. m.  3086 Microsoft-Windows-Hyper-V-Worker    'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual          
+                                                                    {00300045-0037-0039-3700-350044003300}) [runtime]: Finished starting the VM's VMWP                                                  
+23/10/2026 11:18:59 a. m.  3086 Microsoft-Windows-Hyper-V-Worker    'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual          
+                                                                    {00300045-0037-0039-3700-350044003300}) [configuration]: Finished starting the VM's VMWP                                            
+23/10/2026 11:18:59 a. m. 18500 Microsoft-Windows-Hyper-V-Worker    Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                    
+23/10/2026 11:18:59 a. m. 12148 Microsoft-Windows-Hyper-V-SynthStor "samba-dc1": (17CDB249-12F6-44B8-AC3F-9A84C35FFEAF) se inició correctamente. (Id. de máquina virtual:                               
+                                                                    E07975D3-66E7-4615-8094-F1B5712AD092)                                                                                               
+23/10/2026 11:18:57 a. m.  3086 Microsoft-Windows-Hyper-V-Worker    'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual          
+                                                                    {00300045-0037-0039-3700-350044003300}) [runtime]: Completed VirtualMachine::InitializeInternal                                     
+23/10/2026 11:18:57 a. m.  3086 Microsoft-Windows-Hyper-V-Worker    'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual          
+                                                                    {00300045-0037-0039-3700-350044003300}) [configuration]: Completed VirtualMachine::InitializeInternal                               
+23/10/2026 11:18:56 a. m. 18609 Microsoft-Windows-Hyper-V-Worker    Las propiedades de 'samba-dc1' se inicializaron correctamente. (Identificador de máquina virtual                                    
+                                                                    E07975D3-66E7-4615-8094-F1B5712AD092) Características del procesador de invitado: 0x1005F8FFE7F7859F, 0x8010000001 Características  
+                                                                    para xsave de invitado: 0x381F Marcas de creación de particiones: 0xA0 Uso compartido de núcleos sin arquitectura: 2 Tamaño de      
+                                                                    vaciado de línea de caché: 8 Ancho de bits de dirección: 46 Ancho de la dirección física: 39
+
+
+RESULTADO: PARADA GRACIOSA CONFIRMADA
+  AutomaticStopAction=ShutDown -> un apagado del host pedira al guest
+  que systemd detenga samba-ad-dc, cierre sam.ldb y desmonte en orden.
+[11:30:12] Volviendo a arrancar la VM...
+[11:40:17] === TODO COMPLETADO ===
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261023114017
+**********************

@@ -1,0 +1,77 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261023114312
+Nombre de usuario: DESKTOP-OIAJKVE\usuario
+Usuario RunAs: DESKTOP-OIAJKVE\usuario
+Nombre de la configuración: 
+Máquina: DESKTOP-OIAJKVE (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\tmp\lab\hyperv\adapted\diagnostico.ps1
+Id. de proceso: 7836
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[11:43:12] VM: samba-dc1 | State=Running | Uptime=00:12:59.9850000 | Status=Funcionamiento normal
+[11:43:12] AutomaticStartAction=Start AutomaticStopAction=ShutDown
+[11:43:12] Heartbeat=NoContact IntegrationServicesState=
+[11:43:12]
+[11:43:12] Integraciones:
+
+Name                             Enabled PrimaryStatusDescription SecondaryStatusDescription
+----                             ------- ------------------------ --------------------------
+Interfaz de servicio invitado       True Sin contacto                                       
+Latido                              True Sin contacto                                       
+Intercambio de pares clave-valor    True Sin contacto                                       
+Cierre                              True Sin contacto                                       
+Sincronización de hora              True Sin contacto                                       
+VSS                                 True Sin contacto
+[11:43:12] Red:
+
+Name            SwitchName   MacAddress   IsLegacy Connected Status
+----            ----------   ----------   -------- --------- ------
+Network Adapter Lab-External 0800277E8DF2     True      True {Ok}
+PS>ErrorTerminación(Invoke-CimMethod): "Se detuvo el comando en ejecución porque la variable de preferencia "ErrorActionPreference" o un parámetro común se han establecido en Stop: Parámetros de método no válidos "
+[11:43:12] No se pudo capturar la consola: Parámetros de método no válidos
+[11:43:12]
+[11:43:12] Ultimos eventos de Hyper-V de esta VM:
+
+TimeCreated                  Id Msg                                                                                                                                                                     
+-----------                  -- ---                                                                                                                                                                     
+23/10/2026 11:30:12 a. m. 18606 'samba-dc1' está intentando arrancar un sistema operativo. (Id. de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092)                                                
+23/10/2026 11:30:12 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [runtime]: Finished starting the VM's VMWP                                                                                                                              
+23/10/2026 11:30:12 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [configuration]: Finished starting the VM's VMWP                                                                                                                        
+23/10/2026 11:30:12 a. m. 18500 Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                                                        
+23/10/2026 11:30:12 a. m. 12148 "samba-dc1": (17CDB249-12F6-44B8-AC3F-9A84C35FFEAF) se inició correctamente. (Id. de máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                             
+23/10/2026 11:30:12 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [runtime]: Completed VirtualMachine::InitializeInternal                                                                                                                 
+23/10/2026 11:30:12 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [configuration]: Completed VirtualMachine::InitializeInternal                                                                                                           
+23/10/2026 11:30:12 a. m. 18609 Las propiedades de 'samba-dc1' se inicializaron correctamente. (Identificador de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092) Características del procesador   
+                                de invitado: 0x1005F8FFE7F7859F, 0x8010000001 Características para xsave de invitado: 0x381F Marcas de creación de particiones: 0xA0 Uso compartido de núcleos sin      
+                                arquitectura: 2 Tamaño de vaciado de línea de caché: 8 Ancho de bits de dirección: 46 Ancho de la dirección física: 39                                                  
+23/10/2026 11:30:10 a. m. 18502 'samba-dc1' se desactivó. (Id. de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092)                                                                                 
+23/10/2026 11:18:59 a. m. 18606 'samba-dc1' está intentando arrancar un sistema operativo. (Id. de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092)                                                
+23/10/2026 11:18:59 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [runtime]: Finished starting the VM's VMWP                                                                                                                              
+23/10/2026 11:18:59 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [configuration]: Finished starting the VM's VMWP                                                                                                                        
+23/10/2026 11:18:59 a. m. 18500 Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                                                        
+23/10/2026 11:18:59 a. m. 12148 "samba-dc1": (17CDB249-12F6-44B8-AC3F-9A84C35FFEAF) se inició correctamente. (Id. de máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                             
+23/10/2026 11:18:57 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [runtime]: Completed VirtualMachine::InitializeInternal                                                                                                                 
+23/10/2026 11:18:57 a. m.  3086 'samba-dc1' el repositorio de -66E7-4615-8094-F1B5712AD092 ha registrado el Resumen de rendimiento (ID. de máquina virtual {00300045-0037-0039-3700-350044003300})      
+                                [configuration]: Completed VirtualMachine::InitializeInternal                                                                                                           
+23/10/2026 11:18:56 a. m. 18609 Las propiedades de 'samba-dc1' se inicializaron correctamente. (Identificador de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092) Características del procesador   
+                                de invitado: 0x1005F8FFE7F7859F, 0x8010000001 Características para xsave de invitado: 0x381F Marcas de creación de particiones: 0xA0 Uso compartido de núcleos sin      
+                                arquitectura: 2 Tamaño de vaciado de línea de caché: 8 Ancho de bits de dirección: 46 Ancho de la dirección física: 39
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261023114313
+**********************

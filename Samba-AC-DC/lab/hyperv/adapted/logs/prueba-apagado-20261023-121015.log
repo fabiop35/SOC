@@ -1,0 +1,43 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261023121015
+Nombre de usuario: DESKTOP-OIAJKVE\usuario
+Usuario RunAs: DESKTOP-OIAJKVE\usuario
+Nombre de la configuración: 
+Máquina: DESKTOP-OIAJKVE (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\tmp\lab\hyperv\adapted\run-prueba.ps1
+Id. de proceso: 12876
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[12:10:15] VM 'samba-dc1' | Estado: Running | AutomaticStopAction: ShutDown
+[12:10:16] Integracion Shutdown: Enabled=True Estado=Aceptar
+[12:10:16] La VM ya estaba encendida.
+[12:10:21] Latido OK a los 5s.
+[12:10:21] SSH 192.168.0.121:22 disponible a los 0s.
+[12:10:21] Shutdown IC antes de parar: Enabled=True Estado=Aceptar
+[12:10:21] Ejecutando Stop-VM (parada GRACIOSA: sin -Force, sin -TurnOff)...
+[12:10:25] Estado final: Off (tardo 3.7 s)
+[12:10:25]
+[12:10:25] Eventos de apagado posteriores al Stop-VM:
+
+TimeCreated                  Id Msg                                                                                                                                                 
+-----------                  -- ---                                                                                                                                                 
+23/10/2026 12:10:21 p. m. 18506 El apagado de 'samba-dc1' se inició mediante el componente de integración de apagado (id. de máquina virtual {e07975d3-66e7-4615-8094-f1b5712ad092})
+ADVERTENCIA: FAIL: no hay evento 18504; el apagado no fue ordenado por el servicio de integracion.
+
+RESULTADO: HAY QUE REVISAR LA PARADA
+PS>ErrorTerminación(): "La verificacion de parada graciosa no paso."
+ERROR: La verificacion de parada graciosa no paso.
+en <ScriptBlock>, D:\tmp\lab\hyperv\adapted\02-verificar-apagado-graceful.ps1: línea 189
+en <ScriptBlock>, D:\tmp\lab\hyperv\adapted\run-prueba.ps1: línea 5
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261023121025
+**********************

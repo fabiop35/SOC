@@ -1,0 +1,46 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261023121113
+Nombre de usuario: DESKTOP-OIAJKVE\usuario
+Usuario RunAs: DESKTOP-OIAJKVE\usuario
+Nombre de la configuración: 
+Máquina: DESKTOP-OIAJKVE (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\tmp\lab\hyperv\adapted\run-prueba.ps1
+Id. de proceso: 13972
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[12:11:13] VM 'samba-dc1' | Estado: Off | AutomaticStopAction: ShutDown
+[12:11:13] Integracion Shutdown: Enabled=True Estado=
+[12:11:13] Arrancando la VM...
+[12:11:19] Esperando guest... estado=Running, heartbeat=NoContact, 5s
+[12:11:24] Latido OK a los 10s.
+[12:11:24] SSH 192.168.0.121:22 disponible a los 0s.
+[12:11:24] Shutdown IC antes de parar: Enabled=True Estado=Aceptar
+[12:11:24] Ejecutando Stop-VM (parada GRACIOSA: sin -Force, sin -TurnOff)...
+[12:11:28] Estado final: Off (tardo 3.7 s)
+[12:11:32]
+[12:11:32] Eventos de apagado posteriores al Stop-VM:
+
+TimeCreated                  Id Msg                                                                                                                                                                     
+-----------                  -- ---                                                                                                                                                                     
+23/10/2026 12:11:25 p. m. 18506 El apagado de 'samba-dc1' se inició mediante el componente de integración de apagado (id. de máquina virtual {e07975d3-66e7-4615-8094-f1b5712ad092})                    
+23/10/2026 12:11:28 p. m. 18504 'samba-dc1' se cerró mediante el componente de integración de cierre con los parámetros siguientes: fuerza = false, razón = '' (Id. de máquina virtual                  
+                                E07975D3-66E7-4615-8094-F1B5712AD092)
+
+RESULTADO: PARADA GRACIOSA CONFIRMADA (evento 18504, estado Off)
+  AutomaticStopAction=ShutDown -> al apagar el host se pedira al guest
+  que systemd detenga samba-ad-dc, cierre sam.ldb y desmonte en orden.
+[12:11:32] Volviendo a arrancar la VM...
+[12:11:42] VM encendida y con latido (10s).
+[12:11:42] SSH 192.168.0.121:22 disponible (0s).
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261023121142
+**********************

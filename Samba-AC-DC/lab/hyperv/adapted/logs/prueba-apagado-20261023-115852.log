@@ -1,0 +1,27 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261023115852
+Nombre de usuario: DESKTOP-OIAJKVE\usuario
+Usuario RunAs: DESKTOP-OIAJKVE\usuario
+Nombre de la configuración: 
+Máquina: DESKTOP-OIAJKVE (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\tmp\lab\hyperv\adapted\run-prueba.ps1
+Id. de proceso: 1512
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[11:58:52] VM 'samba-dc1' | Estado: Off | AutomaticStopAction: ShutDown
+PS>ErrorTerminación(): "La VM no expone la integracion 'Cierre' (Shutdown)."
+ERROR: La VM no expone la integracion 'Cierre' (Shutdown).
+en <ScriptBlock>, D:\tmp\lab\hyperv\adapted\02-verificar-apagado-graceful.ps1: línea 35
+en <ScriptBlock>, D:\tmp\lab\hyperv\adapted\run-prueba.ps1: línea 5
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261023115852
+**********************

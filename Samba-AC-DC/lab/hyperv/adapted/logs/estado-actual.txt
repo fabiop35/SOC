@@ -1,0 +1,47 @@
+﻿=== 2026-10-23 12:12:49 ===
+
+
+Name                     : samba-dc1
+State                    : Running
+Uptime                   : 00:01:16.5180000
+Heartbeat                : OkApplicationsUnknown
+IntegrationServicesState : 
+AutomaticStartAction     : Start
+AutomaticStopAction      : ShutDown
+Status                   : Funcionamiento normal
+
+
+
+
+
+Name                             Enabled PrimaryStatusDescription SecondaryStatusDescription                                                                                                    
+----                             ------- ------------------------ --------------------------                                                                                                    
+Interfaz de servicio invitado       True Sin contacto                                                                                                                                           
+Latido                              True Aceptar                                                                                                                                                
+Intercambio de pares clave-valor    True Sin contacto                                                                                                                                           
+Cierre                              True Aceptar                                                                                                                                                
+Sincronización de hora              True Aceptar                                                                                                                                                
+VSS                                 True Aceptar                  La versión de protocolo del componente instalado en la máquina virtual no coincide con la versión que esperaba el sistema host
+
+
+
+--- eventos 18500/18502/18504 ---
+
+TimeCreated                  Id Msg                                                                                                                                                                     
+-----------                  -- ---                                                                                                                                                                     
+23/10/2026 12:11:32 p. m. 18500 Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                                                        
+23/10/2026 12:11:28 p. m. 18504 'samba-dc1' se cerró mediante el componente de integración de cierre con los parámetros siguientes: fuerza = false, razón = '' (Id. de máquina virtual                  
+                                E07975D3-66E7-4615-8094-F1B5712AD092)                                                                                                                                   
+23/10/2026 12:11:25 p. m. 18506 El apagado de 'samba-dc1' se inició mediante el componente de integración de apagado (id. de máquina virtual {e07975d3-66e7-4615-8094-f1b5712ad092})                    
+23/10/2026 12:11:14 p. m. 18500 Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                                                        
+23/10/2026 12:10:25 p. m. 18504 'samba-dc1' se cerró mediante el componente de integración de cierre con los parámetros siguientes: fuerza = false, razón = '' (Id. de máquina virtual                  
+                                E07975D3-66E7-4615-8094-F1B5712AD092)                                                                                                                                   
+23/10/2026 12:10:21 p. m. 18506 El apagado de 'samba-dc1' se inició mediante el componente de integración de apagado (id. de máquina virtual {e07975d3-66e7-4615-8094-f1b5712ad092})                    
+23/10/2026 11:59:34 a. m. 18500 Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                                                        
+23/10/2026 11:45:37 a. m. 18502 'samba-dc1' se desactivó. (Id. de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092)                                                                                 
+23/10/2026 11:30:12 a. m. 18500 Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                                                        
+23/10/2026 11:30:10 a. m. 18502 'samba-dc1' se desactivó. (Id. de máquina virtual E07975D3-66E7-4615-8094-F1B5712AD092)                                                                                 
+23/10/2026 11:18:59 a. m. 18500 Se inició 'samba-dc1' correctamente. (Identificador de la máquina virtual: E07975D3-66E7-4615-8094-F1B5712AD092)                                                        
+
+
+

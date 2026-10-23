@@ -1,0 +1,120 @@
+﻿
+
+VMCheckpointId             : 00000000-0000-0000-0000-000000000000
+VMCheckpointName           : 
+Enabled                    : True
+OperationalStatus          : {}
+PrimaryOperationalStatus   : 
+PrimaryStatusDescription   : 
+SecondaryOperationalStatus : 
+SecondaryStatusDescription : 
+StatusDescription          : {}
+Name                       : Interfaz de servicio invitado
+Id                         : Microsoft:E07975D3-66E7-4615-8094-F1B5712AD092\6C09BB55-D683-4DA0-8931-C9BF705F6480
+VMId                       : e07975d3-66e7-4615-8094-f1b5712ad092
+VMName                     : samba-dc1
+VMSnapshotId               : 00000000-0000-0000-0000-000000000000
+VMSnapshotName             : 
+CimSession                 : CimSession: .
+ComputerName               : DESKTOP-OIAJKVE
+IsDeleted                  : False
+
+VMCheckpointId             : 00000000-0000-0000-0000-000000000000
+VMCheckpointName           : 
+Enabled                    : True
+OperationalStatus          : {}
+PrimaryOperationalStatus   : 
+PrimaryStatusDescription   : 
+SecondaryOperationalStatus : 
+SecondaryStatusDescription : 
+StatusDescription          : {}
+Name                       : Latido
+Id                         : Microsoft:E07975D3-66E7-4615-8094-F1B5712AD092\84EAAE65-2F2E-45F5-9BB5-0E857DC8EB47
+VMId                       : e07975d3-66e7-4615-8094-f1b5712ad092
+VMName                     : samba-dc1
+VMSnapshotId               : 00000000-0000-0000-0000-000000000000
+VMSnapshotName             : 
+CimSession                 : CimSession: .
+ComputerName               : DESKTOP-OIAJKVE
+IsDeleted                  : False
+
+VMCheckpointId             : 00000000-0000-0000-0000-000000000000
+VMCheckpointName           : 
+IsClustered                : False
+Enabled                    : True
+OperationalStatus          : {}
+PrimaryOperationalStatus   : 
+PrimaryStatusDescription   : 
+SecondaryOperationalStatus : 
+SecondaryStatusDescription : 
+StatusDescription          : {}
+Name                       : Intercambio de pares clave-valor
+Id                         : Microsoft:E07975D3-66E7-4615-8094-F1B5712AD092\2A34B1C2-FD73-4043-8A5B-DD2159BC743F
+VMId                       : e07975d3-66e7-4615-8094-f1b5712ad092
+VMName                     : samba-dc1
+VMSnapshotId               : 00000000-0000-0000-0000-000000000000
+VMSnapshotName             : 
+CimSession                 : CimSession: .
+ComputerName               : DESKTOP-OIAJKVE
+IsDeleted                  : False
+
+VMCheckpointId             : 00000000-0000-0000-0000-000000000000
+VMCheckpointName           : 
+Enabled                    : True
+OperationalStatus          : {}
+PrimaryOperationalStatus   : 
+PrimaryStatusDescription   : 
+SecondaryOperationalStatus : 
+SecondaryStatusDescription : 
+StatusDescription          : {}
+Name                       : Cierre
+Id                         : Microsoft:E07975D3-66E7-4615-8094-F1B5712AD092\9F8233AC-BE49-4C79-8EE3-E7E1985B2077
+VMId                       : e07975d3-66e7-4615-8094-f1b5712ad092
+VMName                     : samba-dc1
+VMSnapshotId               : 00000000-0000-0000-0000-000000000000
+VMSnapshotName             : 
+CimSession                 : CimSession: .
+ComputerName               : DESKTOP-OIAJKVE
+IsDeleted                  : False
+
+VMCheckpointId             : 00000000-0000-0000-0000-000000000000
+VMCheckpointName           : 
+Enabled                    : True
+OperationalStatus          : {}
+PrimaryOperationalStatus   : 
+PrimaryStatusDescription   : 
+SecondaryOperationalStatus : 
+SecondaryStatusDescription : 
+StatusDescription          : {}
+Name                       : Sincronización de hora
+Id                         : Microsoft:E07975D3-66E7-4615-8094-F1B5712AD092\2497F4DE-E9FA-4204-80E4-4B75C46419C0
+VMId                       : e07975d3-66e7-4615-8094-f1b5712ad092
+VMName                     : samba-dc1
+VMSnapshotId               : 00000000-0000-0000-0000-000000000000
+VMSnapshotName             : 
+CimSession                 : CimSession: .
+ComputerName               : DESKTOP-OIAJKVE
+IsDeleted                  : False
+
+VMCheckpointId             : 00000000-0000-0000-0000-000000000000
+VMCheckpointName           : 
+Enabled                    : True
+OperationalStatus          : {}
+PrimaryOperationalStatus   : 
+PrimaryStatusDescription   : 
+SecondaryOperationalStatus : 
+SecondaryStatusDescription : 
+StatusDescription          : {}
+Name                       : VSS
+Id                         : Microsoft:E07975D3-66E7-4615-8094-F1B5712AD092\5CED1297-4598-4915-A5FC-AD21BB4D02A4
+VMId                       : e07975d3-66e7-4615-8094-f1b5712ad092
+VMName                     : samba-dc1
+VMSnapshotId               : 00000000-0000-0000-0000-000000000000
+VMSnapshotName             : 
+CimSession                 : CimSession: .
+ComputerName               : DESKTOP-OIAJKVE
+IsDeleted                  : False
+
+
+
+

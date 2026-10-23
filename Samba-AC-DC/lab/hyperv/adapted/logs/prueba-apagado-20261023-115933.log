@@ -1,0 +1,145 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261023115933
+Nombre de usuario: DESKTOP-OIAJKVE\usuario
+Usuario RunAs: DESKTOP-OIAJKVE\usuario
+Nombre de la configuración: 
+Máquina: DESKTOP-OIAJKVE (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\tmp\lab\hyperv\adapted\run-prueba.ps1
+Id. de proceso: 14032
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[11:59:33] VM 'samba-dc1' | Estado: Off | AutomaticStopAction: ShutDown
+[11:59:33] Integracion Shutdown: Enabled=True Estado=
+[11:59:33] Arrancando la VM...
+[11:59:39] Esperando guest... estado=Running, heartbeat=NoContact, 5s
+[11:59:44] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 10s
+[11:59:50] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 16s
+[11:59:55] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 21s
+[12:00:00] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 26s
+[12:00:05] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 31s
+[12:00:10] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 36s
+[12:00:15] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 41s
+[12:00:21] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 47s
+[12:00:26] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 52s
+[12:00:31] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 57s
+[12:00:36] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 62s
+[12:00:41] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 67s
+[12:00:47] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 73s
+[12:00:52] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 78s
+[12:00:57] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 83s
+[12:01:02] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 88s
+[12:01:07] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 93s
+[12:01:12] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 98s
+[12:01:18] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 104s
+[12:01:23] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 109s
+[12:01:28] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 114s
+[12:01:33] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 119s
+[12:01:38] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 124s
+[12:01:43] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 129s
+[12:01:49] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 135s
+[12:01:54] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 140s
+[12:01:59] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 145s
+[12:02:04] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 150s
+[12:02:09] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 155s
+[12:02:15] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 161s
+[12:02:20] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 166s
+[12:02:25] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 171s
+[12:02:30] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 176s
+[12:02:35] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 181s
+[12:02:40] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 186s
+[12:02:46] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 192s
+[12:02:51] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 197s
+[12:02:56] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 202s
+[12:03:01] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 207s
+[12:03:06] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 212s
+[12:03:11] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 217s
+[12:03:17] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 223s
+[12:03:22] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 228s
+[12:03:27] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 233s
+[12:03:32] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 238s
+[12:03:37] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 243s
+[12:03:43] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 249s
+[12:03:48] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 254s
+[12:03:53] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 259s
+[12:03:58] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 264s
+[12:04:03] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 269s
+[12:04:08] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 274s
+[12:04:14] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 280s
+[12:04:19] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 285s
+[12:04:24] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 290s
+[12:04:29] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 295s
+[12:04:34] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 300s
+[12:04:40] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 306s
+[12:04:45] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 311s
+[12:04:50] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 316s
+[12:04:55] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 321s
+[12:05:00] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 326s
+[12:05:06] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 332s
+[12:05:11] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 337s
+[12:05:16] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 342s
+[12:05:21] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 347s
+[12:05:26] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 352s
+[12:05:32] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 358s
+[12:05:37] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 363s
+[12:05:42] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 368s
+[12:05:47] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 373s
+[12:05:52] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 378s
+[12:05:57] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 383s
+[12:06:03] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 389s
+[12:06:08] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 394s
+[12:06:13] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 399s
+[12:06:18] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 404s
+[12:06:23] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 409s
+[12:06:28] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 414s
+[12:06:34] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 420s
+[12:06:39] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 425s
+[12:06:44] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 430s
+[12:06:49] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 435s
+[12:06:54] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 440s
+[12:06:59] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 446s
+[12:07:05] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 451s
+[12:07:10] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 456s
+[12:07:15] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 461s
+[12:07:20] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 466s
+[12:07:25] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 471s
+[12:07:31] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 477s
+[12:07:36] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 482s
+[12:07:41] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 487s
+[12:07:46] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 492s
+[12:07:51] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 497s
+[12:07:56] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 502s
+[12:08:02] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 508s
+[12:08:07] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 513s
+[12:08:12] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 518s
+[12:08:17] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 523s
+[12:08:22] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 528s
+[12:08:27] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 534s
+[12:08:33] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 539s
+[12:08:38] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 544s
+[12:08:43] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 549s
+[12:08:48] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 554s
+[12:08:53] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 559s
+[12:08:59] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 565s
+[12:09:04] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 570s
+[12:09:09] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 575s
+[12:09:14] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 580s
+[12:09:19] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 585s
+[12:09:24] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 590s
+[12:09:30] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 596s
+[12:09:35] Esperando guest... estado=Running, heartbeat=OkApplicationsUnknown, 601s
+PS>ErrorTerminación(): "El guest no reporto latido en 600 s. Revisa el initramfs/consola antes de probar el apagado."
+ERROR: El guest no reporto latido en 600 s. Revisa el initramfs/consola antes de probar el apagado.
+en <ScriptBlock>, D:\tmp\lab\hyperv\adapted\02-verificar-apagado-graceful.ps1: línea 76
+en <ScriptBlock>, D:\tmp\lab\hyperv\adapted\run-prueba.ps1: línea 5
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261023120935
+**********************

@@ -1,0 +1,47 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261023111805
+Nombre de usuario: DESKTOP-OIAJKVE\usuario
+Usuario RunAs: DESKTOP-OIAJKVE\usuario
+Nombre de la configuración: 
+Máquina: DESKTOP-OIAJKVE (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\tmp\lab\hyperv\adapted\ejecutar-todo.ps1 -LeaveRunning
+Id. de proceso: 12872
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[11:18:05] Log: D:\tmp\lab\hyperv\adapted\logs\run-20261023-111805.log
+[11:18:05] === 00-preparar-host.ps1 ===
+[11:18:05] Sesion elevada: True
+[11:18:06] Microsoft-Hyper-V-All ya esta Enabled.
+[11:18:06] Servicio hns -> Automatic
+[11:18:06] Servicio vmcompute -> Automatic
+[11:18:06] Anadiendo DESKTOP-OIAJKVE\usuario a 'Administradores de Hyper-V' (SID S-1-5-32-578)...
+[11:18:06] AVISO: cierra sesion y vuelve a entrar para que el grupo tenga efecto.
+[11:18:06] El VHD ya existe: D:\HyperV\samba-dc1.vhd (7 GB). No se vuelve a convertir.
+[11:18:06]
+[11:18:06] Siguiente paso: .\01-crear-vm-samba-dc1.ps1
+[11:18:06] === 01-crear-vm-samba-dc1.ps1 ===
+[11:18:07] Creando conmutador externo 'Lab-External' sobre 'Ethernet' (la red del host se corta unos segundos)...
+
+Name           SwitchType NetAdapterInterfaceDescription          
+----           ---------- ------------------------------          
+Default Switch   Internal                                         
+Lab-External     External Intel(R) Ethernet Connection (7) I219-LM
+[11:18:10] Creando VM 'samba-dc1' (Generacion 1, 4096 MB, 2 vCPU)...
+[11:18:13] Disco adjuntado en IDE 0:0: D:\HyperV\samba-dc1.vhd
+[11:18:13] Adaptador sintetico eliminado (rompia 'enp0s3').
+PS>ErrorTerminación(Add-VMNetworkAdapter): "Falta un argumento para el parámetro 'IsLegacy'. Especifique un parámetro del tipo 'System.Boolean' e inténtelo de nuevo."
+>> ErrorTerminación(Add-VMNetworkAdapter): "Falta un argumento para el parámetro 'IsLegacy'. Especifique un parámetro del tipo 'System.Boolean' e inténtelo de nuevo."
+[11:18:13] ERROR: Falta un argumento para el parámetro 'IsLegacy'. Especifique un parámetro del tipo 'System.Boolean' e inténtelo de nuevo.
+[11:18:13] Revisa el log: D:\tmp\lab\hyperv\adapted\logs\run-20261023-111805.log
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261023111813
+**********************

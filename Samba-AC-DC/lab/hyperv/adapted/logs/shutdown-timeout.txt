@@ -1,0 +1,6 @@
+﻿[2026-10-23 12:27:59] Ajustando ShutdownTimeout...
+Antes: 120
+Despues: 300
+Servicio vmms: Running (StartType Automatic)
+Nota: el nuevo valor se aplica cuando vmms vuelva a arrancar (siguiente reinicio del host).
+OK
